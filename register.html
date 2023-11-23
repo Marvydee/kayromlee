@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Kayromlee - Home</title>
+	<title>Kayromlee - Register</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
@@ -37,7 +37,7 @@
 	<!-- modernizr js -->	
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>	
 	<!-- bootstrap icons -->
-	<link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/bootstrap-icons%401.9.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
 
@@ -103,16 +103,16 @@
 			<div class="col-lg-6">
 				<nav class="kayromlee_menu">
 					<ul class="nav_scroll">
-						<li><a href="#">Home <span><i class="bi bi-chevron-down"></i></span></a>
+						<li><a href="index.html">Home <span><i class="bi bi-chevron-down"></i></span></a>
 							<ul class="sub-menu">
 								<li><a href="index.html">Home</a></li>
 							</ul>
 						</li>
 						<li><a href="about.html">About<span><i class="bi bi-chevron-down"></i></span></a>
 						</li>
-						<li><a href="#">RACBAR <span><i class="bi bi-chevron-down"></i></span></a>
+						<li><a href="Racbar.html">RACBAR <span><i class="bi bi-chevron-down"></i></span></a>
 						</li>
-						<li><a href="#">Lee Kut<span><i class="bi bi-chevron-down"></i></span></a>
+						<li><a href="Leekut.html">Lee Kut<span><i class="bi bi-chevron-down"></i></span></a>
 							
 						</li>
 						<li><a href="gallery.html">Gallery<span><i class="bi bi-chevron-down"></i></span></a>
@@ -153,9 +153,9 @@
 				</li>
 				<li><a href="about.html">About <span><i class="bi bi-chevron-down"></i></span></a>
 				</li>
-				<li><a href="#">RACBAR <span><i class="bi bi-chevron-down"></i></span></a>
+				<li><a href="Racbar.html">RACBAR <span><i class="bi bi-chevron-down"></i></span></a>
 				</li>
-				<li><a href="#">Lee Kut <span><i class="bi bi-chevron-down"></i></span></a>
+				<li><a href="Leekut.html">Lee Kut <span><i class="bi bi-chevron-down"></i></span></a>
 				</li>
 				<li><a href="gallery.html">Gallery<span><i class="bi bi-chevron-down"></i></span></a>
 				</li>
@@ -239,7 +239,7 @@
                     <!-- form  -->
 					<form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/xjvqdgrn" method="post">
 						<fieldset id="fs-frm-inputs">
-						  <h2 id="Parent Information">Parent/Guardian Information</h2>
+						  <h2 class="contacttt">Parent/Guardian Information</h2>
 						  <label for="full-name">Full Name</label>
 						  <input type="text" name="parent-name" id="full-name" placeholder="First and Last" required="">
 							 <label for="full-name">Contact Address</label>
@@ -250,7 +250,7 @@
 						  <input type="text" name="Relationship-to-applicant" id="Relationship-to-applicant" placeholder="Mother" required="">
 							 <label for="full-name">Briefly state what you hope your child will accomplish with Kayrom Lee Academy</label>
 						  <input type="text" name="Hope-for-child" id="Hope-for-child" placeholder="" required="">
-							<h2>Applicant Information</h2>
+							<h2 class="contacttt">Applicant Information</h2>
 							 <label for="full-name">Full name</label>
 						  <input type="text" name="Applicant-full-name" id="Applicant-full-name" placeholder="Full name" required="">
 							 <label for="full-name">Contact Address</label>
@@ -343,7 +343,11 @@
 						  <input type="text" name="Weakness" id="street-address" placeholder="weakness" required="">
 						  <input type="hidden" name="_subject" id="email-subject" value="Registration Form Submission">
 						</fieldset>
-						<input type="submit" value="Register">
+						<div class="col-lg-12">
+							<div class="contact-form style-two text-center">
+								<button type="submit">  Register </button>
+							</div>
+						</div>
 				</form>
                     <div id="status"></div>
                 </div>
@@ -555,7 +559,7 @@
 	#fs-frm label,
 	#fs-frm legend,
 	#fs-frm ::placeholder {
-	  font-size: .825rem;
+	  font-size: 15px;
 	  margin-bottom: .5rem;
 	  padding-top: .2rem;
 	  display: flex;
@@ -654,7 +658,7 @@
     background-color: #45a049; /* Darker green on hover */
   }
   #fs-frm-inputs label {
-      color: white; /* Set label text color to white */
+      color: black; /* Set label text color to white */
     }
 
     #fs-frm-inputs input,

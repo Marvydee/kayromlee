@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1b3434;
+    color: #fff;
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     margin-bottom: 0;
@@ -64,7 +64,7 @@ a{
     transition: all 0.3s ease-out 0s;
 }
 a{
-     color: #1b3434;
+     color: #fff;
      text-decoration: none;
 }
 a:focus,
