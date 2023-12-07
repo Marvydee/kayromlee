@@ -116,7 +116,7 @@ Tags:       campaign, charity, church, donate, donations, foundation, fund, fund
     height: 175%;
     z-index: -1;
     width: 22%;
-    background: #ffffff;
+    background: #fff;
 }
 .kayromlee_nav_manu.style-three:before {
     display: none;
@@ -240,7 +240,7 @@ nav.kayromlee_menu > ul > li > a:hover span {
     line-height: 26px;
     border-radius: 30px;
     color: #fff;
-    background: #007bff;
+    background: #FD7F4B;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -378,13 +378,13 @@ nav.kayromlee_menu > ul > li > a:hover span {
 }
 .style-two.sticky.kayromlee_nav_manu .kayromlee-button a {
     background: #fff;
-    color: #007bff;
+    color: #022394;
 }
 .style-two.sticky.kayromlee_nav_manu  .kayromlee-button:before {
-    background: #007bff;;
+    background: #022394;;
 }
 .style-two.sticky.kayromlee_nav_manu  .kayromlee-button:after {
-    background: #007bff;;
+    background: #022394;;
 }
 /*kayromlee button*/
 .style-two.kayromlee_nav_manu .kayromlee-button {
@@ -394,7 +394,7 @@ nav.kayromlee_menu > ul > li > a:hover span {
     padding: 16px 56px;
 }
 .style-two.kayromlee_nav_manu .kayromlee-button a:before, .style-two.kayromlee_nav_manu .kayromlee-button a:after {
-    background-color: #007bff;
+    background-color: #022394;
 }
 /*all hover*/
 .style-two.kayromlee_nav_manu .kayromlee-button a:hover {
@@ -407,10 +407,10 @@ nav.kayromlee_menu > ul > li > a:hover span {
     background: #fff;;
 }
 .style-two .kayromlee_menu > ul > li > a:hover{
-    color: #FFE956;
+    color: #FFFC00;
 }
 .style-two nav.kayromlee_menu > ul > li > a:hover span {
-    color: #FFE956;
+    color: #FFFC00;
 }
 /*================================
 <-- Start Sub Menu Style Css -->
@@ -555,14 +555,14 @@ nav.kayromlee_menu > ul > li > a:hover span {
 
 .hero-title h1 span {
     font-family: 'Lobster';
-    color: #007bff;
+    color: #022394;
     font-weight: 400;
 }
 
 .hero-sub-title h5 {
     font-size: 20px;
     font-family: lobster;
-    color: #007bff;
+    color: #022394;
     font-weight: 400;
     margin: 0 0 24px;
 }
@@ -578,7 +578,7 @@ nav.kayromlee_menu > ul > li > a:hover span {
     font-weight: 500;
     border-radius: 35px;
     color: #fff;
-    background: #007bff;
+    background: #022394;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -715,7 +715,7 @@ nav.kayromlee_menu > ul > li > a:hover span {
 .kayromlee-section-title h4 {
     font-size: 40px;
     font-weight: 500;
-    color: #007bff;
+    color: #022394;
     line-height: 30px;
     font-family: 'Lobster';
     margin-bottom: 16px;
@@ -729,7 +729,7 @@ nav.kayromlee_menu > ul > li > a:hover span {
     bottom: -8px;
     width: 40px;
     height: 2px;
-    background: #FFE956;
+    background: #FFFC00;
     transition: .5s;
 }
 .kayromlee-section-title h1 {
@@ -737,7 +737,7 @@ nav.kayromlee_menu > ul > li > a:hover span {
     line-height: 52px;
 }
 .kayromlee-section-title h1 span {
-    color: #FFE956;
+    color: #FFFC00;
 }
 h1.section-text {
     margin-top: 0;
@@ -812,7 +812,7 @@ p.kayromlee-icon i {
 .kayromlee-button a {
     padding: 15px 40px;
     font-weight: 500;
-    background: #007bff;
+    background: #022394;
     border-radius: 30px;
     color: #fff;
     margin-top: 25px;
@@ -1571,6 +1571,7 @@ p.progress-text {
 --< kayromlee feature section Css -->
 ======================================================**/
 .feature-section {
+    background: url(assets/images/resource/feature-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1648,7 +1649,7 @@ p.progress-text {
 
 /*Upper box*/
 .upper.feature-single-box:before {
-    background: #FFE956;
+    background: #FFFC00;
 }
 .upper .feature-button a i {
     color: #FD7E4B;
@@ -2333,7 +2334,7 @@ div#slide {
 }
 .vission-sectoin {
     padding: 1px 0 525px;
-    background: #fff;
+    background: #FFF8F5;
 }
 
 .row.vission-bg {
@@ -2366,7 +2367,7 @@ div#slide {
 }
 .tabs li button {
     padding: 6px 32px;
-    background-color: #007bff !important;
+    background-color: #022394 !important;
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -2385,13 +2386,13 @@ li.current:before {
     height: 15px;
     margin: auto;
     width: 16px;
-    background: #007bff;
+    background: #022394;
     transform: rotate(45deg);
 }
 
 .tabs li a {
     padding: 6px 32px;
-    background-color: #007bff !important;
+    background-color: #022394 !important;
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -2402,22 +2403,22 @@ li.current:before {
 }
 /*tab child*/
 .tabs li:nth-child(2) button {
-    background: #FFE956 !important;
+    background: #FFFC00 !important;
 }
 .tabs li:nth-child(3) button {
-    background: #007bff !important;
+    background: #022394 !important;
 }
 .tabs li:nth-child(4) button {
-    background: #FFE956 !important;
+    background: #FFFC00 !important;
 }
 .tabs li:nth-child(2).current:before{
-    background: #FFE956 !important;
+    background: #FFFC00 !important;
 }
 .tabs li:nth-child(3).current:before{
-    background: #007bff !important;
+    background: #022394 !important;
 }
 .tabs li:nth-child(4).current:before{
-    background: #FFE956 !important;
+    background: #FFFC00 !important;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
@@ -2426,22 +2427,22 @@ li.current:before {
 /*Style two*/
 
 .tabs li:nth-child(2) a  {
-    background: #FFE956 !important;
+    background: #FFFC00 !important;
 }
 .tabs li:nth-child(3) a {
-    background: #FFE956 !important;
+    background: #FFFC00 !important;
 }
 .tabs li:nth-child(4) a {
-    background: #007bff !important;
+    background: #022394 !important;
 }
 .tabs li:nth-child(2).current:before{
-    background: #FFE956 !important;
+    background: #FFFC00 !important;
 }
 .tabs li:nth-child(3).current:before{
-    background: #FFE956 !important;
+    background: #FFFC00 !important;
 }
 .tabs li:nth-child(4).current:before{
-    background: #007bff !important;
+    background: #022394 !important;
 }
 
 /*tabs item*/
@@ -3238,7 +3239,7 @@ h1.counter-title2 {
     padding: 14px 39px;
     font-weight: 500;
     color: #fff;
-    background: #007bff;
+    background: #022394;
     display: inline-block;
     border-radius: 30px;
     position: relative;
@@ -3256,7 +3257,7 @@ h1.counter-title2 {
     top: 0;
     height: 100%;
     width: 0;
-    background: #FFE956;
+    background: #FFFC00;
     border-radius: 30px;
     transition: .5s;
     z-index: -1;
@@ -3284,7 +3285,7 @@ h4.widget-title:before {
     bottom: -8px;
     width: 40px;
     height: 2px;
-    background: #FFE956;
+    background: #FFFC00;
     transition: .5s;
 }
 h4.widget-title:hover:before {
@@ -3947,7 +3948,7 @@ span.flaticon-multiply i {
     display: inline-block;
     list-style: none;
     padding: 0 5px 0 0px;
-    color: #FFE956;
+    color: #FFFC00;
     font-weight: 500;
 }
 .breatcam-menu.breatcam-section2 li a {
@@ -4284,8 +4285,8 @@ span.flaticon-multiply i {
 
 .style-two.contact-form button {
     padding: 15px 38px;
-    background: #007bff;
-    border: 1px solid #FFE956;
+    background: #022394;
+    border: 1px solid #FFFC00;
     border-radius: 30px;
     color: #fff;
     display: inline-block;
@@ -5330,7 +5331,7 @@ button.tablink:hover {
     text-align: center;
     line-height: 46px;
     font-size: 18px;
-    color: #007bff;
+    color: #022394;
     left: 0;
     top: 0;
     height: 46px;
@@ -5377,7 +5378,7 @@ button.tablink:hover {
 }
 
 .prgoress_indicator svg.progress-circle path {
-    stroke: #FFE956;
+    stroke: #FFFC00;
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear !important;
@@ -5429,4 +5430,8 @@ button.tablink:hover {
 
 .project-img{
     border-radius: 50%;
+}
+
+.yell{
+    color: #000000;
 }
