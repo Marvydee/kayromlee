@@ -46,7 +46,7 @@ Tags:       campaign, charity, church, donate, donations, foundation, fund, fund
  <--Start kayromlee top Menu Area Css-->
 ==================================*/
 .header_top_menu {
-    background: #FFF7F3;
+    background: #FFEB3B;
     padding: 11px 75px 11px;
 }
 /*menu text*/
@@ -240,7 +240,7 @@ nav.kayromlee_menu > ul > li > a:hover span {
     line-height: 26px;
     border-radius: 30px;
     color: #fff;
-    background: #FD7F4B;
+    background: #022394;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -1607,7 +1607,7 @@ p.progress-text {
     width: 0;
     height: 5px;
     margin: auto;
-    background: #53C99F;
+    background: #022394;
     border-radius: 4px 4px 0 0;
     transition: .5s;
 }
@@ -1616,7 +1616,7 @@ p.progress-text {
     font-size: 24px;
     line-height: 30px;
     padding: 22px 0 0;
-    transition: .5s;
+    /* transition: .5s; */
     font-weight: 700;
 }
 /*feature desc*/
@@ -1663,7 +1663,7 @@ p.progress-text {
 
 /*Upper2 box*/
 .upper2.feature-single-box:before {
-    background: #1BC7ED;
+    background: #022394;
 }
 .upper2 .feature-button a i {
     color: #1BC7ED;
@@ -1672,7 +1672,7 @@ p.progress-text {
     color: #1BC7ED;
 }
 .upper2 .feature-title h3:hover {
-    color: #1BC7ED;
+    color: #022394;
 }
 
 /**====================================================
@@ -2334,7 +2334,7 @@ div#slide {
 }
 .vission-sectoin {
     padding: 1px 0 525px;
-    background: #FFF8F5;
+    background: #ffffff
 }
 
 .row.vission-bg {
@@ -2427,19 +2427,19 @@ li.current:before {
 /*Style two*/
 
 .tabs li:nth-child(2) a  {
-    background: #FFFC00 !important;
+    background: #022394 !important;
 }
 .tabs li:nth-child(3) a {
-    background: #FFFC00 !important;
+    background: #022394 !important;
 }
 .tabs li:nth-child(4) a {
     background: #022394 !important;
 }
 .tabs li:nth-child(2).current:before{
-    background: #FFFC00 !important;
+    background: #022394 !important;
 }
 .tabs li:nth-child(3).current:before{
-    background: #FFFC00 !important;
+    background: #022394 !important;
 }
 .tabs li:nth-child(4).current:before{
     background: #022394 !important;
@@ -4935,7 +4935,7 @@ button.icons {
   <!--Start contact us Section-->
  ==================================================-*/
 .contact-us-section {
-    background: #f8f9fa;
+    background: #e9ecef;
     padding: 80px 0 100px;
 }
 
@@ -5331,7 +5331,7 @@ button.tablink:hover {
     text-align: center;
     line-height: 46px;
     font-size: 18px;
-    color: #022394;
+    color: #FFFC00;
     left: 0;
     top: 0;
     height: 46px;
@@ -5378,7 +5378,7 @@ button.tablink:hover {
 }
 
 .prgoress_indicator svg.progress-circle path {
-    stroke: #FFFC00;
+    stroke: #022394;
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear !important;
@@ -5386,7 +5386,7 @@ button.tablink:hover {
 
 .about_ceo{
     text-align: justify;
- margin-right: 20px;
+    margin-right: 20px;
 
 }
 
@@ -5434,5 +5434,13 @@ button.tablink:hover {
 }
 
 .yell{
+    color: #000000;
+}
+
+.feature-head{
+    color: #000000;
+}
+
+.miss_ion{
     color: #000000;
 }
